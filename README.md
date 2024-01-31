@@ -7,7 +7,17 @@ API for advanced NHL metrics
 - OAuth Token Gen
 - Scripts for CRUD
 
-### Run Tests
+### Setup
+
+- [install rust](https://www.rust-lang.org/tools/install)
+- install rust-analyzer vs code extension
+
+### Tests
 ```bash
 cargo test
+```
+
+### Run
+```bash
+API_KEY=<key here> cargo run
 ```
